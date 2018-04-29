@@ -1,0 +1,22 @@
+#回归语言的本质
+#什么是写代码，什么是代码
+#代码是现实世界在计算机世界的映射
+#写代码是将现实世界的事物用计算机语言来描述
+#Python的基本数据类型
+#Number数字：整数小数int flloat没有双精度，本身就是能表示双精度
+#Python除法比较特殊/得到float//（整除）得到整形
+print(2/2)
+print(2//2)
+#进制表示二进制，八进制，十六进制
+print(0b10)
+print(0o10)
+print(0x10)
+#进制转换
+#转换为二进制bin()
+print(bin(10))
+print(bin(0o7))
+print(bin(0xE))
+#转换为十六进制hex()
+print(hex(888))
+#转换为八进制oct()
+print(oct(0x777))
